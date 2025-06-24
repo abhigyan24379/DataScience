@@ -11,7 +11,7 @@
 import numpy as np 
 A = np.array([[2,3],[1,4]])
 determinant = np.linalg.det(A)
-print ("determinant \n", determinant)
+# print ("determinant \n", determinant)
 
  # --> Inverse of a Matrix
  #    - denoted as A^-1
@@ -20,5 +20,18 @@ print ("determinant \n", determinant)
  #    formula A^-1 = 1/det *Adj[A]
  
 inverse = np.linalg.inv(A)
-print ("Inverse of A :\n" , inverse) 
+# print ("Inverse of A :\n" , inverse) 
+
+eigenValues,eigenvectors  = np.linalg.eig(A)
+print("Eigen Values \n", eigenValues)
+print("Eigen Vectors \n", eigenvectors)
+
+b = np.array([[4,2],[1,1]])
+eigVal , eigvec = np.linalg.eig(b)
+print ("EigVal", eigVal)
+print ("EigVec\n", eigvec)
+
+
+
+
  
