@@ -15,3 +15,5 @@ expr = x + y
 substituted_expr = expr.subs(x,5)
 
 print (substituted_expr)
+# z= sp.Symbol('z')
+

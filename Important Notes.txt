@@ -1,0 +1,6 @@
+what is linear regression ?
+Ans) Linear regression in Python involves modeling the relationship between a dependent 
+variable and one or more independent variables by fitting a linear equation to 
+observed data. Python offers several ways to implement linear regression, with
+scikit-learn and statsmodels being popular choices for machine learning and 
+statistical modeling, respectively. 

@@ -7,3 +7,5 @@ inverse  = np.linalg.inv(A)
 
 print("Determinant :\n" , determinant)
 print("Inverse: \n", inverse)
+
+

@@ -23,3 +23,19 @@ grad_y = sp.diff(f,y)
 print ("partial derivativesd : ", grad_x,grad_y)
 
 
+# Gradient Descent optimization Algorithm 
+# what is gradient descent 
+# - iterative optimization algorithm used to minimize a function 
+# - updates parameters in the direction of the negative gradient to find the munimum 
+
+# update Rules: 0 = 0 - α∇f(0)
+#  - 0: Parameters of the model
+#  - α: Learning rate (step size)
+
+# Why is gradient descent important in machine learning
+# --> Gradient descent is important in machine learning because it is the core 
+# algorithm used to optimize model parameters by minimizing a loss function, 
+# which measures how well the model performs
+
+
+

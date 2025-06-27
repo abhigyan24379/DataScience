@@ -17,5 +17,5 @@ print("V Transpose: \n", Vt)
 #Reconstruct 
 Sigma = np.zeros((3,3))
 np.fill_diagonal(Sigma , S)
-reconstructed = U @ Sigma @ Vt
+reconstructed = U @ Sigma @ Vt  # '@' this is used for matrix multiplication in python(like the dot product)
 print("Reconstructed Matrix \n: ", reconstructed)
