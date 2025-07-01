@@ -4,7 +4,9 @@
 # - Find the probability of having the disease given a positive test result 
 
 def bayes_theorem ( prior, sensitivity , specificity ):
+    # truly positive = ( sensitivity * prior ) ,, Falsely positive = (1-specificity) * (1 - prior)
     evidence = ( sensitivity * prior ) + ((1-specificity) * (1 - prior))
+    
     posterior = ( sensitivity * prior ) /evidence
     return posterior
 
