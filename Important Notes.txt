@@ -4,3 +4,9 @@ variable and one or more independent variables by fitting a linear equation to
 observed data. Python offers several ways to implement linear regression, with
 scikit-learn and statsmodels being popular choices for machine learning and 
 statistical modeling, respectively. 
+
+
+--> Using Gradient Descent for parameter optimization
+    Gradient Descent Algorithm
+    - iteratively update 0 using θ = θ - α∇J(θ)
+        alpha = learning rate 
