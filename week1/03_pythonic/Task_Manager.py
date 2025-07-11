@@ -85,7 +85,7 @@ def main ():
             save_tasks(task)
             print("goodbye ")
         else:
-            print ("invalide choice, please try again ")
+            print ("invalide choice, please try again and enter a valid choice ")
             
 if __name__ == "__main__":
     main()
