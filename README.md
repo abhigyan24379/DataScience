@@ -40,8 +40,8 @@ I use this space to build understanding by doing, not just reading. It’s messy
 - Data Cleaning and Preprocessing  
 - Exploratory Data Analysis (EDA)  
 - Data Visualization using Matplotlib and Seaborn  
-- Probability and Statistics (ongoing)  
-- Introduction to Machine Learning (upcoming)
+- Probability and Statistics (Completed)  
+- Introduction to Machine Learning (ongoing)
 
 > 📌 *More topics will be added as I progress through my roadmap.*
 
